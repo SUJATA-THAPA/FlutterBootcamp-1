@@ -27,32 +27,88 @@ class _homescreenState extends State<homescreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      floatingActionButton: FloatingActionButton(onPressed: (){
-        backgroundColor: Colors.orange; 
+      body: Column(children: [
+        Container(height: 10,width: 10,color: Colors.red,)
+
+      ],),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     // floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () {
+      //     backgroundColor:
+      //     Colors.orange;
+
+      //     print("I am pressed!");
+      //   },
+      //   child: const Icon(Icons.add),
+      // ),
+      // body: Center(
+      //   child: Container(
+      //     height: 400,
+      //     width: 300,
         
-        print("I am pressed!");
-       
-      },
-      child: const Icon(Icons.add),
-      ),
-      
-      body: const Center(
-        child: Text('hello world i am to rock you'),
-      ),
-      drawer: const Drawer(),
-      // endDrawer: Drawer(),
-      appBar: AppBar(
-        backgroundColor: Colors.purple,
-        // leading: const Text('hi'),
-        actions: const [
-          Text("hi"),
-          Text("hi"),
-        ],
-        title: const Center(
-          child: Text('sujata App'),
-        ),
-      ),
+      //     // color: Colors.red,
+      //     decoration: const BoxDecoration(
+      //         borderRadius: BorderRadius.only(topLeft: Radius.circular(40)),
+      //         color: Colors.purple),
+
+      //     child: const Center(
+      //       child: Text(
+      //         "hello",
+      //         style: TextStyle(
+      //             fontSize: 20,
+      //             color: Colors.orange,
+      //             fontWeight: FontWeight.bold),
+      //       ),
+      //     ),
+      //   ),
+      // ),
+      // // body: const Center(
+      // //   child: Text('hello world i am to rock you'),
+      // // ),
+      // drawer: const Drawer(),
+      // // endDrawer: Drawer(),
+      // appBar: AppBar(
+      //   backgroundColor: Colors.purple,
+      //   // leading: const Text('hi'),
+      //   actions: const [
+      //     Text("hi"),
+      //     Text("hi"),
+      //   ],
+      //   title: const Center(
+      //     child: Text('sujata App'),
+    //    ),
+    //   ),
     );
   }
 }
