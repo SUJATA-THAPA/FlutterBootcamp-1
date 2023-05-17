@@ -40,30 +40,33 @@ class _HomeScreenState extends State<HomeScreen> {
               begin: Alignment.topLeft,
               end: AlignmentDirectional.bottomCenter,
             ),
-           borderRadius: BorderRadius.only(
-           topLeft:Radius.circular(100),
-            bottomRight:Radius.circular(100), 
-            // bottomLeft: Radius.circular(100), 
-           ),
-           ),
-          
-          
+            borderRadius: BorderRadius.only(
+              topLeft: Radius.circular(100),
+              bottomRight: Radius.circular(100),
+              // bottomLeft: Radius.circular(100),
+            ),
+          ),
 
           width: 230,
           height: 250,
           // color: Colors.orange,
           child: const Center(
-              child: Text(
-            "hello sujata keep going ok!",
-            style: TextStyle(
-                fontWeight: FontWeight.w200,
-                fontSize: 30,
-                letterSpacing: 10,
-                color: Colors.pink,
-                decoration: TextDecoration.overline),
-          )),
+            child: Text(
+              "hello sujata keep going ok!",
+              style: TextStyle(
+                  fontWeight: FontWeight.w200,
+                  fontSize: 30,
+                  letterSpacing: 10,
+                  color: Colors.pink,
+                  decoration: TextDecoration.overline),
+            ),
+          ),
         ),
+
+
       ),
+      
     );
+    
   }
 }
