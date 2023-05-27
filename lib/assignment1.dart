@@ -52,7 +52,8 @@ class _ScreenState extends State<Screen> {
                 child: Container(
                   alignment: Alignment.center,
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(vertical:70.0,horizontal: 10),
+                    padding: const EdgeInsets.symmetric(
+                        vertical: 70.0, horizontal: 10),
                     child: SafeArea(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -61,19 +62,30 @@ class _ScreenState extends State<Screen> {
                             text: const TextSpan(
                               text: "Welcome To",
                               style: TextStyle(
-                                  fontWeight: FontWeight.bold,fontSize: 35,
-                                  color: Colors.deepPurple,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 35,
+                                color: Colors.deepPurple,
+                              ),
                             ),
-                             
                           ),
-                         
-                       ), ],
+                        ],
                       ),
                     ),
                   ),
                 ),
               ),
             ),
+          ),
+        ],
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: "Home",
+          ),
+          BottomNavigationBarItem(icon: Icon(Icons.search),
+          label:"Search",
           ),
         ],
       ),
